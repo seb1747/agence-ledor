@@ -137,11 +137,17 @@ header a {
     flex: 1;
 }
 
-.offerr-elem-img{
+.offer-elem-img{
     width: 100%;
 }
 
 .offer-elem-text{
     padding: 2rem;
     text-align: center;
+}
+.offer-separator{
+    height: 2px;
+    margin:1rem auto;
+    width: 50px;
+    background: #333;
 }
