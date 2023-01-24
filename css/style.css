@@ -24,6 +24,10 @@ strong{
     font-weight: 400;
 }
 
+em{
+    color: #555;
+}
+
 body{
     font-family: "Montserrat", sans-serif;
     background: #eee;
@@ -188,4 +192,53 @@ header a {
 .who-content-text p{
     font-size: 1.3rem;
     line-height: 1.8rem;
+}
+
+/*testimonials*/
+
+.testimonials {
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.testimonials-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-elem{
+    display: flex;
+    flex: 1 ;
+    background: white;
+    border-radius: 5px;
+    padding: 2rem;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.testimonials-elem-text{
+    padding: 0 2rem;
+}
+
+.testimonials-elem-text p i {
+    margin: 0.2rem;
+}
+
+.testimonials-elem-profil{
+    display: flex ;
+    flex-direction: column;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.testimonials-elem-profil p {
+    font-weight: 700;
+}
+
+.testimonials-elem-profil img {
+    width: 50px;
+    border-radius: 50px;
+    margin-bottom: 1rem;
 }
