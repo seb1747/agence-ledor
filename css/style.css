@@ -40,6 +40,11 @@ body{
     font-style: 2rem;
     margin-bottom: 3rem;
 }
+
+.bg-dark{
+    background: #333;
+    color: white;
+}
 /*vp + header*/
 
 .vp-container{
@@ -150,4 +155,37 @@ header a {
     margin:1rem auto;
     width: 50px;
     background: #333;
+}
+
+/*who*/
+
+.who{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.who-content-img{
+    flex: 1;
+}
+
+.who-content-img img{
+    width: 100%;
+}
+
+.who-content-text{
+    flex: 1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.who-content-text h2{
+    margin-bottom: 2rem;
+}
+
+.who-content-text p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
