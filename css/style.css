@@ -197,7 +197,7 @@ header a {
 /*testimonials*/
 
 .testimonials {
-    padding: 5rem 1rem 5rem 1rem;
+    padding: 5rem 1rem ;
 }
 
 .testimonials-content{
@@ -235,10 +235,67 @@ header a {
 
 .testimonials-elem-profil p {
     font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 .testimonials-elem-profil img {
     width: 50px;
     border-radius: 50px;
     margin-bottom: 1rem;
+}
+
+
+/*contact*/
+
+.contact{
+   padding: 10rem 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact-form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form input{
+    background: #333;
+    border: 0;
+    outline: 0;
+    margin-bottom: 1rem;
+    color: #555;
+    border-bottom: 1px solid #555;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.contact-form button{
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 30px;
+    background: #f1c40f;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background: rgb(221, 124, 14)
+    ;
+}
+
+/*footer*/
+
+footer{
+    background: #444;
+    padding: 5rem 1rem;
+    color: white ;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 0;
 }
