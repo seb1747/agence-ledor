@@ -166,15 +166,14 @@ header a {
 .who{
     display: flex;
     flex-flow: row nowrap;
+    min-height: 600px;
 }
 
 .who-content-img{
+    background: url(../images/team.jpg) center center/cover;
     flex: 1;
 }
 
-.who-content-img img{
-    width: 100%;
-}
 
 .who-content-text{
     flex: 1;
